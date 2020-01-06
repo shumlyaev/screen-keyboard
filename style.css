@@ -1,0 +1,37 @@
+.content {
+    padding-top: 15px;
+}
+#keyboard {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    max-width: 800px;
+    min-width: 250px;
+    margin: 0 auto;
+    user-select: none;
+}
+#block-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+#block-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.key {
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.active {
+    background-color: silver;
+}
